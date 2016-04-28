@@ -1,0 +1,17 @@
+2016/4/25
+针对MVP 的rx
+persentation可以写两种类型的；从数据库直接取的注意可能会使用到loader那种机制的；不基于rx的
+第二种类型，从网络取值（可以增加一个缓存）基于rx的
+
+如果新的项目以模块来区分的话，大家就可以使用自己的想要使用的技术；
+
+为了做测试，一般都会写一个FakeRemoteDataSource(数据放在map 中);
+
+项目含一个app src目录，
+4个测试目录，分别是androidTest（UI层测试）、
+androidTestMock（UI层测试mock数据支持）、
+test（业务层单元测试）、
+mock（业务层单元测试mock数据支持）。
+
+src目录的代码组织方式完全是按照功能来组织的，
+功能内部分为xactivity、xcontract、xfragment、xpresenter四个类文件(x代表业务名称)。

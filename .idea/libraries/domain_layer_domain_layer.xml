@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="domain-layer.domain-layer">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/domain-layer/build/libs/domain-layer.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

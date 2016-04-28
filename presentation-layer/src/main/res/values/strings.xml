@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">MVP_Rxjava</string>
+    <string name="btn_text_retry">点击重试</string>
+</resources>
